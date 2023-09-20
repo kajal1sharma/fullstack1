@@ -4,9 +4,16 @@
     height:500px;
     border-radius: 20px;
     display: inline-block;
+    margin:20px;
+  
+}
 
+#image1{
+
+    float:left;
 }
 #box1{
+    margin-top: 200px;
     height:700px;
 }
 
