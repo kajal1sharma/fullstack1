@@ -39,3 +39,10 @@ button:hover{
     background-color: orange;
     box-shadow: 5px 5px 10px grey, 5px 5px 20px orange  ;
 }
+
+p{
+    font-weight: 100;
+    text-align: center;
+    color:rgb(43, 43, 43);
+    font-family: lemonada;
+}
