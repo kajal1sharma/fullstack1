@@ -1,0 +1,41 @@
+body{
+   background-color: pink; 
+}
+.container{
+    height:80vh;
+    width:50vw;
+    background-color: red ;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.card{
+    
+    height:80%;
+    width:50%;
+    background-color:orange;
+    margin: auto;
+    border-radius:30px;
+}
+
+h2{
+  font-weight: 900;
+  font-size: 40px; 
+  text-align: center;  
+}
+
+button{
+    padding:10px 20px ;
+    color:black;
+    font-weight: 900;
+    font-size: 30px;
+    border: none;;
+    background-color: white;
+}
+
+button:hover{
+    border-radius: 15px;
+    color:white;
+    background-color: orange;
+    box-shadow: 5px 5px 10px grey, 5px 5px 20px orange  ;
+}
