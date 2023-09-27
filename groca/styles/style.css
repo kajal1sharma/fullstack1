@@ -14,3 +14,20 @@ a{
     margin-left: 1vw;
    
 }
+.container2{
+    border:10px red solid;
+}
+nav{
+    display: inline-block;
+    margin-left: 15vw;
+    border:1px solid black;
+
+}
+
+.nav__span{
+    margin-left: 2vw;
+}
+
+.icon2{
+    margin:1vw;
+}
