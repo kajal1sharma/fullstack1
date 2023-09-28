@@ -61,3 +61,29 @@ nav{
 .input2:target{
     border:1px solid yellow;
 }
+
+.internalContainer1{
+    border:5px solid black;
+    height:90vh;
+    background-color: green;
+    background-image: url("../images/slider-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.internalContainer1__div{
+   
+    margin-left: 50vw;
+    margin-top: 20vh;  
+    font-size: 30px; 
+
+}
+
+.internalContainer1_button{
+    padding:10px 15px;
+    font-size: 25px;
+    border:none;
+    color:white;
+    border-radius: 20px;
+    background-color: rgb(73, 228, 81);
+}
