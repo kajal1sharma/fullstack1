@@ -55,11 +55,12 @@ nav{
 .input2{
     width:50vw;
     padding-left:40px;
-    padding-right: 100px;
+    padding-right: 100px
 }
 
-.input2:target{
-    border:1px solid yellow;
+.input2:focus{
+    border:none;
+    outline:1px solid yellow;
 }
 
 .internalContainer1{
@@ -70,11 +71,12 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  
 }
 .internalContainer1__div{
    
     margin-left: 50vw;
-    margin-top: 20vh;  
+    margin-top: 18vh;  
     font-size: 30px; 
 
 }
@@ -86,4 +88,34 @@ nav{
     color:white;
     border-radius: 20px;
     background-color: rgb(73, 228, 81);
+}
+.internalContainer2{
+    text-align: center;
+    
+    color:white;
+}
+.internalContainer2_div{
+    display: inline-block;
+    width:40vw;
+    height:30vh;
+    margin:40px 40px;
+}
+
+.div1{
+   background-image: url("../images/img-1.jpg");
+
+}
+
+.div2{
+    background-image: url("../images/img-2.jpg");
+}
+.shopnow{
+    padding:10px 15px;
+    font-size: 20px;
+    color: inherit;
+    background-color: green;
+}
+
+.shopnow:hover{
+    background-color: orangered;
 }
