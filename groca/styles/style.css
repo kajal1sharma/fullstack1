@@ -64,8 +64,8 @@ nav{
 }
 
 .internalContainer1{
-    border:5px solid black;
-    height:90vh;
+    /* border:5px solid black; */
+    height:95vh;
     background-color: green;
     background-image: url("../images/slider-3.jpg");
     background-position: center;
