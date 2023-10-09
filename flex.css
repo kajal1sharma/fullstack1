@@ -1,0 +1,23 @@
+.parentbox{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    border:10px solid black;
+}
+.box{
+    width: 200px;
+    height:200px;
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: violet;
+}
+.box4{
+    background-color: greenyellow;
+}
