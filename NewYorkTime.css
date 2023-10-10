@@ -18,19 +18,48 @@
     flex-direction: column;
 }
 .subcontainer1_span_count{
-    padding: 2px;
+    padding: 4px;
     color:white;
     background-color: black;
-    border-radius: 10%;
+    border-radius: 10px;
+    font-size: 10px;
 
 }
 .subcontainer1_article{
     border:2px solid black;
+    padding: 5px 10px;
+}
+.subcontainer1_article>div{
+    color:red;
+    font-size: 10px;;
+}
+.para1{
+    font-size: 20px;
+    letter-spacing: 2px;;
 }
 .subcontainer2{
     border:2px solid green;
   
     width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navigators{
+    font-size: 24px;
+    text-align: end;
+    align-self: flex-end;
+    border:2px solid black;
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+}
+.dot{
+    padding: 5px;
+    font-size: 10px;
+    background-color: black;
+    border-radius: 50%;
 }
 .subcontainer3{
     border:2px solid green;
