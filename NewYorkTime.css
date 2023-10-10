@@ -1,0 +1,39 @@
+.section1>h2{
+    text-align: center;
+}
+.mainContainer{
+    width:80vw;
+    margin:auto;
+    border:5px solid black;
+   
+    display: flex;
+    flex-direction: row;
+
+}
+.subcontainer1{
+    border:2px solid green;
+   
+    width:25%;
+    display: flex;
+    flex-direction: column;
+}
+.subcontainer1_span_count{
+    padding: 2px;
+    color:white;
+    background-color: black;
+    border-radius: 10%;
+
+}
+.subcontainer1_article{
+    border:2px solid black;
+}
+.subcontainer2{
+    border:2px solid green;
+  
+    width:50%;
+}
+.subcontainer3{
+    border:2px solid green;
+
+    width:25%;
+}
