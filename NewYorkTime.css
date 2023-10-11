@@ -1,3 +1,21 @@
+header{
+    width:80vw;
+    margin:auto;
+    border:5px solid black;
+}
+.header_container1{
+    display:flex;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+.header_container1>ul{
+    display: flex;
+    gap:10px;
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
 .section1>h2{
     text-align: center;
 }
