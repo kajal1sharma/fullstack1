@@ -34,6 +34,22 @@ h1{
     margin: 0px;
     padding: 0px;
 }
+/* =================================================== */
+
+nav{
+    margin-left: 3%;
+    padding: 10px 5px;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-evenly;
+    border:5px solid pink;
+    
+    width:95%;
+    list-style: none;
+    padding: 10px 5px;
+    margin:0px;
+}
 .section1>h2{
     text-align: center;
 }

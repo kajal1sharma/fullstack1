@@ -1,0 +1,37 @@
+.flexContainer{
+    
+    display: inline-flex;
+    border:10px solid orangered;
+    align-items: normal;
+}
+
+.box{
+    width:100px;
+    /* height:200px; */
+
+}
+
+.box1{
+    /* height:50px; */
+    background-color: pink;
+}
+.box2{
+    /* height:150px; */
+    background-color: #0404bc;
+}
+.box3{
+    height:250px;
+    background-color:rgb(23, 224,24);
+}
+.box4{
+    height:150px;
+    background-color: rgb(245, 9, 48);
+}
+.box5{
+    /* height:350px; */
+    background-color: #f15816;
+}
+.box6{
+    height:450px;
+    background-color:rgb(3, 63, 3);
+}
