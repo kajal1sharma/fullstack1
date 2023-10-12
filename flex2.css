@@ -1,30 +1,37 @@
 .flexContainer{
     
-    display: inline-flex;
-    border:10px solid orangered;
-    align-items: normal;
+    display: flex;
+    border:10px solid #ff4500;
+    width:90vw;
+    height:200vh;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: baseline; */
 }
 
 .box{
-    width:100px;
-    /* height:200px; */
+    width:200px;
+    height:400px;
 
 }
 
 .box1{
     /* height:50px; */
+   
     background-color: pink;
 }
 .box2{
     /* height:150px; */
+  
     background-color: #0404bc;
 }
 .box3{
-    height:250px;
+    /* height:350px; */
     background-color:rgb(23, 224,24);
 }
 .box4{
-    height:150px;
+    /* height:250px; */
     background-color: rgb(245, 9, 48);
 }
 .box5{
@@ -32,6 +39,6 @@
     background-color: #f15816;
 }
 .box6{
-    height:450px;
+    /* height:450px; */
     background-color:rgb(3, 63, 3);
 }
