@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        td{
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Students Marks</caption>
+        <tbody>
+            <tr>
+                <td>Stub<br/>(Row Heading)</td>
+                <td colspan="4">Caption(Column Heading)</td>
+                <td rowspan="2">Total Rows</td>
+            </tr>
+        
+        
+            <tr>
+                <td rowspan="2">Stub Entries <br> (Row entries)</td>
+                <td colspan="2">
+                    <table style="border:none">
+                        <tbody>
+                            <tr>
+                                <td style="border:none;border-bottom: 1px solid black;" colspan="2">SubHeading</td>
+                            </tr>
+                            <tr>
+                                <td style="border:none;border-right:1px solid black">Column <br> heading</td>
+                                <td style="border:none">Column <br> heading</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td colspan="2">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">SubHeading</td>
+                            </tr>
+                            <tr>
+                                <td>Column <br> heading</td>
+                                <td>Column <br> heading</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>   
+            <tr>
+                <td style="height:40px"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total<br>(Columns)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

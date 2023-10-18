@@ -48,3 +48,22 @@
     background-color: brown;
 }
 
+.circle{
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+}
+.comp2xl{
+    width:200px;
+    height:200px;
+}
+
+
+
+
+
+
+
