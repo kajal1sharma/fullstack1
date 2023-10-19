@@ -1,0 +1,31 @@
+.gridcontainer{
+    height:100vh;
+    
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+
+.box{
+    display: inline-block;
+    width:100px;
+    height:100px;
+}
+
+.box1{
+   
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+}
+
+.box3{
+    background-color: pink;
+}
+.box4{
+    background-color: orange;
+}
+.box5{
+    background-color: blue;
+}
