@@ -2,7 +2,10 @@
     height:100vh;
     
     display:grid;
-    grid-template-columns: auto auto auto auto auto;
+    /* grid-template-columns:20vw 20vw 40vw 10vw 10vw; */
+    /* grid-template-columns: 400px 100px 300px 400px 200px; */
+    grid-template-columns: auto auto auto  auto auto;
+    grid-template-rows: 300px 100px 200px ;
 }
 
 
