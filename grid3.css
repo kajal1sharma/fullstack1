@@ -1,0 +1,34 @@
+.gridContainer{
+    height:100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* row-gap: 100px;
+    column-gap: 200px; */
+    gap:100px 300px;
+}
+
+.box{
+    border:5px solid black;
+    height:200px;
+    width:300px;
+
+}
+
+.box1{
+    background-color: blue;
+    align-self: center;
+    justify-self:center;
+
+}
+
+.box2{
+    background-color: pink;
+}
+
+.box3{
+    background-color: red;
+}
+
+.box4{
+    background-color: green;
+}
