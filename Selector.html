@@ -32,7 +32,7 @@
             color:red;
             font-size: 30px;
         } */
-        a{
+        /* a{
             display: block;
             font-size: 35px;
             color:red;
@@ -44,13 +44,59 @@
 
         .link[href="www.google.com"]{
             background-color: green;
+        } */
+
+        /* p:first-child{
+            color:red;
         }
+        p:last-child{
+            color:blue;
+        } */
+
+
+        p+p{
+            color: red;
+        }
+
+
     </style>
 </head>
 <body>
-    <a  class="link" href="www.google.com">Google</a>
+
+    <div>
+        <p>this is first p tag</p>
+        <p>this is second p</p>
+        <h1>this is h1</h1>
+        <span>
+            span
+        </span>
+        <p>this is first p tag</p>
+        <p>this is second p</p>
+    </div>
+    <!-- <div>
+        <h1>
+            <p>para 1</p>
+            <p>para 2</p>
+            <p>para 3</p>
+            <div>
+               <p>...para1</p>
+               <p>...para2</p>
+               <p>...para3</p>
+            </div>
+        </h1>
+    </div>
+    <div>
+        <h1>
+            <span>span</span>
+            <p>para 1</p>
+            <p>para 2</p>
+            <p>para 3</p>
+        </h1>
+        <p>last child</p>
+    </div> -->
+    <!-- <a  class="link" href="www.google.com">Google</a>
     <a class="link" href="#">Fb</a>
-    <a class="link">Amazon</a>
+    <a class="link">Amazon</a> -->
     <!-- <ul>
         <li>first
             <p>this is some text</p>
