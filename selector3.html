@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        /* div .para{
+            color: red;
+        } */
+
+        /* all the siblings are considered */
+        p:nth-child(2){
+            color:red;
+        }
+        /* p:first-child{
+           color:blue;  
+        } */
+        /* p:last-child{
+            color:orange;
+        } */
+        /* only p type of tags will be selected */
+        p:nth-of-type(2){
+        background-color: green;
+        }
+        p:first-of-type{
+            color:blue;  
+        }
+        p:last-of-type{
+            color:orange;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h4>this h4</h4>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos distinctio quaerat repudiandae? Officia, architecto. Esse sint quo tempora deserunt corrupti ipsum nam. Eveniet ratione id, illo fugit harum totam.</p>
+        <h4>this is child number 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam iste eveniet, accusantium accusamus labore animi assumenda exercitationem sit ex et repellendus, recusandae eos? Obcaecati, delectus molestias! Maxime a suscipit deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero necessitatibus voluptatem officia laboriosam unde optio error harum sequi neque, rerum velit sunt dolor perferendis quos illum veniam aliquam ad quaerat.</p>
+        <h4>this h4</h4>
+    </div>
+    <h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos distinctio quaerat repudiandae? Officia, architecto. Esse sint quo tempora deserunt corrupti ipsum nam. Eveniet ratione id, illo fugit harum totam.</p>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam iste eveniet, accusantium accusamus labore animi assumenda exercitationem sit ex et repellendus, recusandae eos? Obcaecati, delectus molestias! Maxime a suscipit deserunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero necessitatibus voluptatem officia laboriosam unde optio error harum sequi neque, rerum velit sunt dolor perferendis quos illum veniam aliquam ad quaerat.</p>
+    </h1>
+    <!-- this is some text
+    <span style="font-size: 0.5rem;">this is my span </span>-->
+    <!-- rem and em used to define the size of text --> 
+    <!--<h1>This is your first Heading
+        <p style="font-size: 2rem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, officiis? Ut consequatur repudiandae repellendus ratione amet commodi, totam alias possimus nemo facilis quo corporis temporibus, eligendi non aut minima quasi!</p>
+    </h1> -->
+</body>
+</html>

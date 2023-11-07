@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+
+    <style>
+    /* p:hover{
+        color:red;
+        font-size:40px;
+    }
+    p::first-line{
+        font-size: 30px;
+    }
+    h1::first-letter{
+        font-size: 45px;
+    }
+
+    input::placeholder{
+        padding: 20px;;
+        color:red;
+        font-size: 30px;
+    }
+    div::after{
+        color:red;
+        font-size: 40px;
+        left:400px;
+        top:-100px;
+        position: relative;
+        content:"X";
+    }
+    
+  
+    div::before{
+        content:"X";
+        color:green;
+        font-size: 40px;
+    } */
+    /* general sibling */
+    p~p{
+        color:red;
+    }
+
+    input::placeholder{
+        color:blue;
+        font-size: 20px;
+    }
+    input:required{
+        background-color: red;
+    }
+    </style>
+</head>
+<body>
+
+    <form>
+        <input type="text" placeholder="username" required><input type="text" placeholder="email" >
+        <input type="submit">
+    </form>
+    
+    <!-- <h1>zero head</h1>
+    <p>this is first para</p>
+    <p>ythiis 2nd para</p>
+    <h1>this is first head </h1>
+    <p>this is our 3rd para</p>
+    <p>this is our 3rd para</p> -->
+    <!-- <div style="border:5px solid black;width:500px;height:300px">
+        <h1>this is h1</h1>
+        <p>this is my p tag</p>
+    </div>
+    <input placeholder="username">
+    <h1>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi temporibus, totam repellat perspiciatis eligendi porro et voluptate numquam dolorem praesentium fugiat mollitia aperiam, amet asperiores doloribus sequi deleniti quas! Rem!
+    </h1> -->
+    <!-- <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti distinctio fugit molestias, assumenda tenetur ipsa quaerat voluptas ullam. Blanditiis ratione vitae ad officiis, ipsam non corporis ex obcaecati error perferendis.</p>
+    </div> -->
+</body>
+</html>
