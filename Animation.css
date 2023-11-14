@@ -1,0 +1,32 @@
+.container1{
+    width:200px;
+    height:200px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 300px;
+    animation-name: animation;
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+}
+.container2{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    margin-top: 100px;
+    margin-left: 300px;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+
+}
+
+@keyframes animation{
+    from {
+            background-color: brown;
+            
+        }
+    to { background-color: orange;
+        width:400px;
+        height:400px;
+    }
+}
