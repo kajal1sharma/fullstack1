@@ -1,0 +1,9 @@
+.box{
+    width:200px;
+    height:200px;
+    border:1px solid black;
+    background-color: red;
+    /* transform: scaleY(3);
+    transform: scaleX(4); */
+    transform: scale(2,4);
+}
