@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width:200px;
+            height:200px;
+            background-color: red;
+            
+        }
+
+        .box:hover{
+            animation-name: circle;
+            animation-duration: 5s;
+        }
+        .box:active{
+            background-color: black;
+            color:white;
+        }
+        @keyframes circle{
+           0%  {
+                width:200px;
+                height:200px;
+                border-radius: 50%;
+                background-color: aquamarine;
+            }
+            25%{
+                width:250px;
+                height:250px;
+                border-radius: 0%;
+                background-color: aquamarine;
+            }
+            50%{
+                width:250px;
+                height:250px;
+                border-radius: 50%;
+                background-color: aquamarine;
+            }
+            75%{
+                width:300px;
+                height:300px;
+                border-radius: 0%;
+                background-color: rgb(43, 226, 49);
+            }
+         100%{
+                width:400px;
+                height:400px;
+                border-radius: 50%;
+                background-color: blueviolet;
+            }
+        }
+    </style>
+</head>
+<body style="margin: 0%;height:100vh;display: flex;justify-content: center;align-items: center;border:10px solid black">
+
+    <div class="box">
+
+    </div>
+
+</body>
+</html>
