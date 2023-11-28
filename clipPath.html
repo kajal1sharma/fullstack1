@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            
+            width: 400px;
+            height:400px;
+            background-color: red;
+            /* clip-path: circle(430px at 0px 0px); */
+            /* clip-path: ellipse(120px 180px at 200px 200px); */
+            /* clip-path: polygon(0px 0px, 200px 20px, 400px 80px, 400px 200px ,300px 200px  ); */
+            clip-path: inset(10% 20% 30% 10%);
+        }
+    </style>
+</head>
+<body>
+    <div style="border:10px solid yellow;width: 400px;">
+
+    
+        <div class="box">
+            <img src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg" width="400px" height="400px"/>
+        </div>
+</div>
+</body>
+</html>
