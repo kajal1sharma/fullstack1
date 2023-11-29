@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    margin:0px;
+    perspective-origin:bottom right ;
+    perspective: 2500px;
+    /* backface-visibility:hidden; */
+    transform-style: preserve-3d;
+
+}
+.box{
+    width:250px;
+    height:250px;
+    background-color: blue;
+    /* opacity: 0.5; */
+    border:2px solid white;
+    position: absolute;
+    top:300px;
+    left:300px;
+}
+
+.right{
+    background-color: aqua;
+    position: absolute;
+    left:430px;
+    transform:rotateY(90deg)
+}
+.left{
+    background-color: green;
+    position: absolute;
+    left:170px;
+    transform:rotateY(90deg)
+}
+.back{
+    background-color: orange;
+    transform: translateZ(-100px);
+
+
+}
+.front{
+    background-color:teal;
+    transform: translateZ(120px);
+
+}
+.top{
+    background-color: blueviolet;
+    position: absolute;
+    top:180px;
+    transform: rotateX(89deg);
+}
+.bottom{
+    background-color: aquamarine;
+    position: absolute;
+    top:0px;
+    top:420px;
+    transform: rotateX(89deg);
+}
+
+
+@keyframes animation{
+    0%{
+
+    }
+}
+
