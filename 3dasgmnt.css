@@ -1,6 +1,7 @@
 body{
-    perspective-origin: right top;
-    perspective: 1000px;
+    /* perspective-origin:bottom right;*/
+    perspective-origin: top left;
+     perspective: 100px; 
     transform-style: preserve-3d;
 }
 .box1{
@@ -11,10 +12,10 @@ body{
     position: absolute;
     top:200px;
     left:200px;
-    transform:rotateX(0deg);
-    backface-visibility: hidden; 
+    transform:rotateX(10deg);
+    backface-visibility: visible; 
      animation-name: animX;
-    animation-duration: 5s;
+    animation-duration:10s;
     animation-iteration-count: 10;
     font-size: 40px;
 }
@@ -25,12 +26,12 @@ body{
     position: absolute;
     top:200px;
     left:200px;   
-    backface-visibility: hidden; 
+    backface-visibility: visible; 
     transform:rotateY(0deg);
     
     animation-name: animY;
     animation-iteration-count:infinite;
-    animation-duration: 5s;
+    animation-duration: 1s;
     
 }
 .box3{
@@ -45,18 +46,28 @@ body{
     /* backface-visibility: visible; */
     animation-name: animZ;
     backface-visibility: hidden; 
-    animation-duration: 5s;
-    animation-iteration-count: 10;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     font-size: 40px;
 }
 @keyframes animX {
  
     0%{
-       transform:rotateX(0deg);
+       transform:translateZ(0px);
+    }
+    25%{
+        transform:translateZ(-50px);
+    }
+    
+     50%{
+        transform:translateZ(-50px) translateX(500px) ;
+    }
+    75%{
+        transform:translateX(500px);
     }
     100%{
-        transform: rotateX(360deg);
-    }
+        transform:translateZ(0px) translateX(0px) ;
+    } 
     
 }
 
