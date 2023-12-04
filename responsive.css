@@ -1,0 +1,74 @@
+body{
+    margin:0px;
+}
+header{
+    height:10vh;
+    background-color: orange;
+}
+
+aside{
+    border:5px solid black;
+}
+main{
+    border:5px solid black;
+}
+nav{
+    border:5px solid black;
+}
+section{
+    border:5px solid black;
+    
+}
+footer{
+    background-color: aqua;
+    display: flex;
+
+
+}
+footer>section{
+    width:33.33%;
+    height:20vh;
+}
+
+
+@media screen and (max-width:400px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    footer>section{
+        width:100vw;
+        height:10vh;
+        background-color: pink;
+    }
+}
+@media screen and (max-width:800px) and (min-width:401px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    footer>section{
+        width:100vw;
+        height:10vh;
+        background-color: green;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
