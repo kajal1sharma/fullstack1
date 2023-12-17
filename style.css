@@ -6,11 +6,25 @@
     /* width:100%; */
     border:10px solid black;
 }
+.header_list{
+    /* border:5px solid black; */
+    padding: 0px;
+    height:100px;
+    display:flex; 
+    list-style: none;
+    justify-content: center;
+    gap:20px;
+    font-size: 20px;
+    align-items: center;
+}
 @media screen and (max-width:500px) {
     .header_container{
         /* height:100px;
         width:100%; */
         background-color: aqua;
+    }
+    .header_list{
+        display: none;
     }
 }
 
@@ -21,10 +35,16 @@
         background-color: red;
     }
 }
-@media screen and (min-width:900px) {
+@media screen and (min-width:800px) {
     .header_container{
         /* height:100px;
         width:100%; */
+        color:white;
+    
         background-color:black;
     }
+    .header_list{
+            gap:70px;
+    }
+
 }
