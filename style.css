@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+}
+
+@media screen and (max-width:500px) {
+    .header_container{
+        height:100px;
+        width:100%;
+        background-color: aqua;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+    .header_container{
+        height:100px;
+        width:100%;
+        background-color: red;
+    }
+}
+@media screen and (min-width:800px) {
+    .header_container{
+        height:100px;
+        width:100%;
+        background-color:black;
+    }
+}
