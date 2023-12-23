@@ -21,6 +21,37 @@
     font-size: 20px;
     align-items: center;
 }
+
+.container1{
+    width:60vw;
+    border:5px solid black;
+    margin:auto;
+    display: flex;
+}
+.imgContainer2{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+}
+.img1container{
+   
+    width:60%;
+    height:50vh;
+    background-size: 100%;
+    background-image: url("https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D");
+}
+.img2container{
+    background-image: url("https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg");
+    height: 50%;
+    width:100%;
+    background-size: 100%;
+}
+.img3container{
+    height: 50%;
+    width:100%;
+    background-size: 100%;
+    background-image: url("https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D");
+}
 @media screen and (max-width:500px) {
     .header_container{
         /* height:100px;
