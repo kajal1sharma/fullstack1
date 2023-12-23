@@ -37,22 +37,56 @@
    
     width:60%;
     height:50vh;
-    background-size: 100%;
+    background-repeat: no-repeat;
+
+    background-size:contain;
     background-image: url("https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D");
 }
 .img2container{
     background-image: url("https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg");
     height: 50%;
     width:100%;
-    background-size: 100%;
+    background-repeat: no-repeat;
+
+    background-size:cover;
+    /* background-size: 100%; */
 }
 .img3container{
+    background-repeat: no-repeat;
+
+    background-size:cover;
     height: 50%;
     width:100%;
-    background-size: 100%;
+    /* background-size: 100%; */
     background-image: url("https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D");
 }
 @media screen and (max-width:500px) {
+
+    .container1{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .imgContainer2{
+        width:100%;
+    }
+    .img1container{
+        width:100%;
+        background-color: black;
+        opacity: 0.5;
+    }
+    .img1container:hover{
+        opacity: 1;
+    }
+    .img2container{
+        width:100%;
+        height:50vh;   
+    }
+    .img3container{
+        width:100%;
+        height:50vh; 
+    }
+
+
     .header_container{
         /* height:100px;
         width:100%; */
@@ -69,6 +103,25 @@
 }
 
 @media screen and (min-width:500px) and (max-width:800px) {
+
+    .container1{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .img1container{
+        width:100%;
+    }
+    .imgContainer2{
+        width:100%;
+    }
+    .img2container{
+        width:100%;
+        height:50vh;   
+    }
+    .img3container{
+        width:100%;
+        height:50vh; 
+    }
     .header_container{
         /* height:100px;
         width:100%; */
@@ -76,6 +129,21 @@
     }
 }
 @media screen and (min-width:800px) {
+    .img1container{
+        width:100%;
+        /* background-color: black;
+        opacity: 0.5; */
+        background-size: 100%;
+        filter:brightness(50%);
+        background-position: center;
+    }
+    .img1container:hover{
+        /* opacity: 1; */
+        background-position: center;
+        background-size: 120%;
+        filter:brightness(100%);
+        transition: 1s;
+    }
     .header_container{
         /* height:100px;
         width:100%; */
