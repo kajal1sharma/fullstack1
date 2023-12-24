@@ -1,3 +1,37 @@
+.section2container{
+    display: flex;
+    width:80vw;
+    margin:auto;
+    border:5px solid black;
+}
+.leftcontainer{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:5px solid black;
+}
+.article img{
+    width:15%;
+    
+}
+.article>div{
+    width:55%;
+}
+.rightcontainer{
+    width:40%;
+}
+
+.article2 img{
+    width:20%;
+    display: block;
+    margin:auto;
+}
 *{
     margin:0px;
 }
